@@ -23,9 +23,9 @@ Prepared OCI tenancy with:
 
 1. Go to **Solutions and Platforms -> Marketplace -> Applications**.
 
-  ![](./images/provision-1.png " ")
+  ![](https://github.com/oracle-livelabs/common/raw/main/images/console/marketplace.png " ")
 
-2. In the search input, type `weblogic`. Here, we'll use the **Oracle WebLogic Server Enterprise Edition UCM**.
+2. In the search input, type `weblogic enterprise`. Here, we'll use the **Oracle WebLogic Server Enterprise Edition UCM**. Make sure you **not** select the **image**.
 
    ![](./images/provision-2.png " ")
 
@@ -47,7 +47,7 @@ Prepared OCI tenancy with:
 
 6. Select a **Shape**.
 
-   In a real world situation, choose a shape appropriate to handle the load of a single managed server. Since we're using a trial account, choose the **VM.Standard.E2.1** shape, the **VM.Standard.E2.2** shape or a suitable shape that is available in your tenancy.
+   In a real world situation, choose a shape appropriate to handle the load of a single managed server. Since we're using a trial account, choose the **VM.Standard.E2.1** shape, the **VM.Standard.E2.2** shape or a suitable shape that is available in your tenancy like a **VM.Standard.Flex.E4**.
 
   ![](./images/provision-7-shape.png " ")
 
@@ -85,7 +85,7 @@ Prepared OCI tenancy with:
 
   ![](./images/provision-11-admin-name.png " ")
 
-10. Paste the **OCID** of the **Secret** generated previously for the **Secret OCID for WebLogic Admin Password**.
+10. Select the **Secret** generated previously for the **Secret for WebLogic Admin Password**.
 
   ![](./images/provision-12-secret.png " ")
 

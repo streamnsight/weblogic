@@ -65,7 +65,7 @@ Estimated Completion Time: 5 minutes.
 
    ![](./images/prereq-secret4.png " ")
 
-## Task 4: Check Policies Needed to Deploy and Create Dynamic Group if needed.
+<!-- ## Task 4: Check Policies Needed to Deploy and Create Dynamic Group if needed.
 
 If you don't have the following policy for your group:
 
@@ -121,9 +121,9 @@ You will need to create a Dynamic Group and associated Policies:
    Allow dynamic-group MyInstancesPrincipalGroup to use osms-managed-instances in compartment MyCompartment
    Allow dynamic-group MyInstancesPrincipalGroup to read instance-family in compartment MyCompartment
    </copy>
-   ```
+   ``` -->
 
 ## Acknowledgements
 
  - **Author** - Emmanuel Leroy, May 2020
- - **Last Updated By/Date** - Emmanuel Leroy, October 2021
+ - **Last Updated By/Date** - Emmanuel Leroy, February 2023
